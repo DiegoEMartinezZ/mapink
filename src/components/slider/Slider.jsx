@@ -32,7 +32,10 @@ const Slider = ({ name }) => {
   return (
     <>
       <div className="relative h-screen w-full mt-5 mb-20">
-        <h3 className="font-bold text-center m-5">{name}</h3>
+        <h3 className="font-bold text-center text-xl p-2 border-b-2 w-3 m-auto h-auto flex justify-center my-5 ">
+          {name}
+        </h3>
+
         <section className="mx-5 flex items-center justify-between my-5 absolute z-10 top-0 bottom-0 right-0 left-0">
           <FontAwesomeIcon
             icon={faCaretLeft}

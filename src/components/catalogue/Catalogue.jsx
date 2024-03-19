@@ -20,8 +20,8 @@ const Catalogue = () => {
           te guiamos a través del proceso de compra para que puedas obtener los
           mapas que necesitas de manera rápida y sencilla.
         </p>
-        <button className="bg-black-200 p-2 rounded font-semibold my-5 cursor-pointer hover:bg-black-300">
-          <FontAwesomeIcon icon={faFileArrowDown} className="mx-2" />
+        <button className="bg-black-950 text-black-50 p-2 rounded font-semibold my-5 cursor-pointer shadow-lg hover:bg-black-100 hover:text-black-950">
+          <FontAwesomeIcon icon={faFileArrowDown} className="mx-2 " />
           Guía proceso de compra
         </button>
         <br />
