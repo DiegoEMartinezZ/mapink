@@ -7,7 +7,7 @@ const FAQ = () => {
   return (
     <section
       id="FAQ"
-      className="2xl:mx-80 lg:text-left text-emerald-10 mx-10  h-auto w-auto flex justify-center items-center"
+      className="2xl:mx-80 lg:text-left text-emerald-10 mx-10 py-20 h-auto w-auto flex justify-center items-center"
     >
       <ul className="lg:text-xl font-light">
         <Title name={"FAQ"} iconUI={faComments} />

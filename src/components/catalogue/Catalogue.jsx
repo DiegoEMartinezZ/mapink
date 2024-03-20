@@ -11,7 +11,7 @@ const Catalogue = () => {
   return (
     <section
       id="Catalogo"
-      className="relative 2xl:mx-80 lg:text-left mx-10 flex justify-center items-center"
+      className="relative py-20 2xl:mx-80 lg:text-left mx-10 flex justify-center items-center"
     >
       <div>
         <Title name={"Catálogo"} iconUI={faLocationArrow} />

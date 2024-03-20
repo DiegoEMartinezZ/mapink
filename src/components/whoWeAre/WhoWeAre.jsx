@@ -6,7 +6,7 @@ const WhoWeAre = () => {
   return (
     <section
       id="QuienesSomos"
-      className="2xl:mx-80 lg:text-left text-emerald-10 mx-10 h-screen w-auto flex justify-center items-center"
+      className="py-20 2xl:mx-80 lg:text-left text-emerald-10 mx-10 h-screen w-auto flex justify-center items-center"
     >
       <div>
         <Title name={"Quienes Somos"} iconUI={faLocation} />
