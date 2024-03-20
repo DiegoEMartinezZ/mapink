@@ -16,10 +16,12 @@ const Catalogue = () => {
       <div>
         <Title name={"Catálogo"} iconUI={faLocationArrow} />
         <p className="lg:text-xl font-light">
-          ¡Gracias por tu interés en adquirir nuestros mapas vectoriales! Aquí
-          te guiamos a través del proceso de compra para que puedas obtener los
-          mapas que necesitas de manera rápida y sencilla. Disponemos de 3
-          colecciones de mapas:
+          ¡Gracias por tu interés en adquirir nuestros mapas vectoriales!
+          Descarga la
+          <strong className="font-medium"> guía de proceso de compra </strong>
+          para que puedas obtener los mapas que necesitas de manera rápida y
+          sencilla. ¡Recuerda! Actualmente disponemos de 2 colecciones: Clásicos
+          y Color
         </p>
         <button className="bg-black-950 text-black-50 p-2 rounded font-semibold my-5 cursor-pointer shadow-lg hover:bg-black-100 hover:text-black-950">
           <FontAwesomeIcon icon={faFileArrowDown} className="mx-2 " />
@@ -27,9 +29,8 @@ const Catalogue = () => {
         </button>
         <br />
 
-        <Slider name={"Clásico"} />
-        <Slider name={"Duotono"} />
-        <Slider name={"Videojuegos"} />
+        <Slider name={"Clásicos"} />
+        <Slider name={"Color"} />
       </div>
     </section>
   );

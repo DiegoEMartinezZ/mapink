@@ -7,7 +7,7 @@ const LandingPage = () => {
         <h1 className="2xl:text-xl  italic absolute inset-0 flex justify-center items-center">
           "Con una estética limpia y contemporánea, nuestros mapas vectoriales
           son la elección perfecta para aquellos que buscan un diseño elegante y
-          minimalista."
+          sofisticado."
         </h1>
       </div>
     </section>

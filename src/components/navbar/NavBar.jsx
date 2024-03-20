@@ -4,14 +4,7 @@ import BtnNavBar from "../ui/BtnNavBar";
 const NavBar = () => {
   return (
     <nav>
-      <ul className="scroll-smooth z-10 right-0 left-0 flex flex-nowrap items-center mx-1 my-2 p-2 justify-around absolute ">
-        <a href="/">
-          <img
-            src="/logo.png"
-            alt="logo_mapink"
-            className="w-20 h-auto bg-opacity-0 2xl:w-1/2 "
-          />
-        </a>
+      <ul className="scroll-smooth bg-black-950 text-black-500 fixed top-0 right-0 left-0 z-10 flex flex-nowrap items-center  justify-around ">
         <BtnNavBar name={"Quiénes Somos"} section={"QuienesSomos"} />
         <BtnNavBar name={"Catálogo"} section={"Catalogo"} />
         <BtnNavBar name={"FAQ"} section={"FAQ"} />

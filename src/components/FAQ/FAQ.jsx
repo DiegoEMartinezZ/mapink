@@ -16,9 +16,9 @@ const FAQ = () => {
             question={"¿Puedo personalizar los colores y estilos de los mapas?"}
           />
           <p>
-            Sí, nuestros mapas vectoriales son completamente personalizables.
-            Podemos ajustar fácilmente colores y estilos para adaptarlos a tus
-            preferencias o para que coincidan con la identidad de tu marca.
+            Sí, podemos ajustar fácilmente colores ya que contamos con
+            diferentes paletas de colores disponibles según las preferencias que
+            tengas para que coincidan con el entorno donde estará expuesto.
           </p>
         </li>
 
@@ -43,8 +43,9 @@ const FAQ = () => {
           />
           <p>
             Nuestros mapas vectoriales son escalables, lo que significa que
-            puedes cambiar su tamaño sin perder calidad. Podemos imprimirlo en
-            pequeña y gran escala.
+            puedes cambiar su tamaño sin perder calidad. Podemos imprimirlo en 4
+            distintos tamaños:{" "}
+            <strong> 30 x 40 cm / 45 x 60 cm / 60 x 80 cm</strong>
           </p>
         </li>
         <li className="my-10">
@@ -64,7 +65,7 @@ const FAQ = () => {
           />
           <p>
             Sí, ofrecemos descuentos para compras al por mayor. Por favor, ponte
-            en contacto por WhatsApp con los detalles de tus requisitos, y te
+            en contacto por WhatsApp con los detalles de tus requisitos y te
             proporcionaremos un presupuesto adaptado a tus necesidades.
           </p>
         </li>

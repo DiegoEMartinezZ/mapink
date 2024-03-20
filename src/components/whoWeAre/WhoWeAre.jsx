@@ -11,10 +11,10 @@ const WhoWeAre = () => {
       <div>
         <Title name={"Quienes Somos"} iconUI={faLocation} />
         <p className="lg:text-xl font-light">
-          Somos un emprendimiento especializado en la creación de retablos
-          minimalistas de mapas de ciudades. Nos dedicamos a transformar los
-          mapas urbanos en elegantes obras de arte que capturan la esencia y la
-          belleza de las ciudades más icónicas del mundo.
+          Somos un emprendimiento especializado en la creación de retablos de
+          mapas de ciudades. Nos dedicamos a transformar los mapas urbanos en
+          elegantes obras de arte que capturan la esencia y la belleza de las
+          ciudades más icónicas del mundo.
         </p>
       </div>
     </section>
