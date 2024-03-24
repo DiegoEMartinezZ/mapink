@@ -31,38 +31,40 @@ const Slider = ({ name }) => {
 
   return (
     <>
-      <div className="relative h-screen w-full mt-5 mb-20">
-        <h3 className="font-bold text-center text-xl p-2 border-b-2 w-3 m-auto h-auto flex justify-center my-5 ">
-          {name}
-        </h3>
+      <div className="relative h-auto block mb-96">
+        <div className="my-10 p-10">
+          <h3 className="font-bold text-center text-xl p-2 border-b-2 w-3 m-auto h-auto flex justify-center my-5">
+            {name}
+          </h3>
 
-        <section className="mx-5 flex items-center justify-between my-5 absolute z-10 top-0 bottom-0 right-0 left-0">
-          <FontAwesomeIcon
-            icon={faCaretLeft}
-            onClick={handlerBackSlider}
-            className="cursor-pointer hover:text-black-50 hover:bg-black-500 p-2 rounded"
-          />
-          <FontAwesomeIcon
-            icon={faCaretRight}
-            onClick={handlerNextSlider}
-            className="cursor-pointer hover:text-black-50 hover:bg-black-500 p-2 rounded"
-          />
-        </section>
-        {maps.map((map, idx) => (
-          <ul key={idx} className="absolute left-0 right-0 ">
-            <li>
-              <img
-                src={`imgs/${map.img}`}
-                alt={`Slide ${map.id}`}
-                className={`absolute left-0 right-0 top-0 h-screen m-auto cursor-pointer transition-opacity duration-700 ${
-                  idx === currentID
-                    ? "opacity-100"
-                    : "pointer-events-none opacity-0"
-                }`}
-              />
-            </li>
-          </ul>
-        ))}
+          <section className="absolute opacity-70 flex justify-center my-6 top-96 p-2 bg-black-800 rounded text-black-50 z-10 left-1/2 -translate-x-1/2 -translate-y-1/2">
+            <FontAwesomeIcon
+              icon={faCaretLeft}
+              onClick={handlerBackSlider}
+              className="cursor-pointer mx-5 hover:text-black-50 hover:bg-black-500 p-1 rounded"
+            />
+            <FontAwesomeIcon
+              icon={faCaretRight}
+              onClick={handlerNextSlider}
+              className="cursor-pointer mx-5 hover:text-black-50 hover:bg-black-500 p-1 rounded"
+            />
+          </section>
+          {maps.map((map, idx) => (
+            <ul key={idx} className="absolute left-0 right-0 ">
+              <li>
+                <img
+                  src={`imgs/${map.img}`}
+                  alt={`Slide ${map.id}`}
+                  className={`h-80 m-auto cursor-pointer transition-opacity duration-700 ${
+                    idx === currentID
+                      ? "opacity-100"
+                      : "pointer-events-none opacity-0"
+                  }`}
+                />
+              </li>
+            </ul>
+          ))}
+        </div>
       </div>
     </>
   );
