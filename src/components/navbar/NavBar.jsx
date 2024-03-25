@@ -12,8 +12,8 @@ const NavBar = () => {
             className="opacity-50 h-7 hover:opacity-100"
           />
         </a>
-        <BtnNavBar name={"Home"} section={"QuienesSomos"} />
-        <BtnNavBar name={"Catálogo"} section={"Catalogo"} />
+        <BtnNavBar name={"Nosotros"} section={"nosotros"} />
+        <BtnNavBar name={"Catálogo"} section={"catalogo"} />
         <BtnNavBar name={"FAQ"} section={"FAQ"} />
       </ul>
     </nav>

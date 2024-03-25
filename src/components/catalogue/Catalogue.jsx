@@ -10,7 +10,7 @@ import Slider from "../slider/Slider";
 const Catalogue = () => {
   return (
     <section
-      id="Catalogo"
+      id="catalogo"
       className="relative py-20 2xl:mx-80 lg:text-left mx-10 flex justify-center items-center"
     >
       <div>

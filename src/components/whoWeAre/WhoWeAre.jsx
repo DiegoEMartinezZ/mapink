@@ -5,7 +5,7 @@ import { faLocation } from "@fortawesome/free-solid-svg-icons";
 const WhoWeAre = () => {
   return (
     <section
-      id="QuienesSomos"
+      id="nosotros"
       className="py-20 2xl:mx-80 lg:text-left text-emerald-10 mx-10 h-screen w-auto flex justify-center items-center"
     >
       <div>
